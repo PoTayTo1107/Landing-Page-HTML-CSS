@@ -128,7 +128,6 @@ footer {
     line-height: 2.8rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #ffffff;
     list-style: none;
     padding-top: 1rem;
 }
@@ -138,8 +137,8 @@ footer {
 }
 
 .footer_home {
-    font-size: 3.5rem;
-    margin: 10rem auto 3rem;
+    font-size: 3.2rem;
+    margin: 8rem auto 2rem;
     font-family: "New York Small";
     font-style: normal;
     font-weight: 500;
@@ -151,13 +150,42 @@ footer {
 
 .footer_message {
     font-size: 1.8rem;
-    margin: 3rem auto 3rem;
+    margin: 0 auto 0.1rem;
     font-family: "New York Small";
     font-style: normal;
-    font-weight: 500;
     text-align: center;
     line-height: 2.4rem;
     width: 48rem;
+}
+
+.footer_social {
+    text-align: center;
+    margin: 3rem auto 6rem;
+}
+
+.footer_social-item {
+    font-family: "Basis Grotesque Pro", sans-serif;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    padding: 0 1.5rem;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.footer_copyright {
+    text-align: center;
+}
+
+.footer_copyright-item {
+    font-family: "Basis Grotesque Pro", sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+    color: #ffffff;
+    font-style: normal;
+    margin: 0 auto;
+    height: 1.6rem;
 }
 
 @media only screen and (max-width: 768px) {
