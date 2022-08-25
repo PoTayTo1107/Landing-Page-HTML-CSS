@@ -109,7 +109,7 @@ h2 {
 }
 
 footer {
-    height: 46rem;
+    height: 48rem;
     background-color: #000000;
     color: #ffffff;
 }
@@ -124,7 +124,7 @@ footer {
     font-family: "Basis Grotesque Pro", sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 2.8rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
