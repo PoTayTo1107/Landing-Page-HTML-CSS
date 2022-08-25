@@ -1,0 +1,29 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: "Basis Grotesque Pro", sans-serif;
+    font-family: "Basis Grotesque Pro Light", sans-serif;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full-width {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+}
