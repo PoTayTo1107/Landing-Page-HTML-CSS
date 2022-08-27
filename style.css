@@ -29,12 +29,13 @@ p {
     font-size: 2rem;
     line-height: 3.4rem;
     letter-spacing: 0.1rem;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
 }
 
 .nav {
     justify-content: space-between;
     margin: 0 4rem;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .nav_cur {
@@ -252,7 +253,7 @@ footer {
     margin: 7.7rem 46rem 0;
     display: flex;
     font-weight: 500;
-    justify-content: space-between;
+    justify-content: center;
     cursor: pointer;
 }
 
@@ -366,6 +367,11 @@ footer {
     border-top: 9px solid #000;
 }
 
+.signup_header {
+    font-size: 3.6rem;
+    margin: 6rem auto 1.6rem;
+}
+
 .signup_text {
     font-weight: 500;
     font-size: 2rem;
@@ -374,8 +380,8 @@ footer {
 
 .signup_email {
     max-width: 48rem;
-    margin: 0 auto 4rem;
-    box-sizing: border-box;
+    margin-bottom: 4rem;
+    justify-content: center;
 }
 
 .signup_email-text {
@@ -404,6 +410,8 @@ footer {
     }
     .nav_home {
         font-size: 2rem;
+        padding: 0;
+        margin: 0;
     }
     .header {
         font-size: 1.2rem;
@@ -416,9 +424,8 @@ footer {
         padding: 3rem 1rem 2rem;
     }
     h1 {
-        font-size: 2.6rem;
-        margin: auto;
-        max-width: 60rem;
+        font-size: 3.6rem;
+        margin-bottom: 2.4rem;
     }
     .blog_home-img {
         margin: 5rem auto;
@@ -426,7 +433,7 @@ footer {
     }
     p {
         font-size: 1.4rem;
-        margin: 0 auto 3rem;
+        margin: 0 2rem 3rem;
         max-width: 40rem;
     }
     .blog_home-separator,
@@ -445,5 +452,41 @@ footer {
     }
     .footer_message {
         font-size: 1.1rem;
+    }
+    .content_author,
+    .content_text,
+    .content_img-des,
+    .content_header,
+    .content_author-social-2,
+    .content_tag {
+        margin: 0 2rem 5rem;
+    }
+    .content_img {
+        width: 100%;
+    }
+    .content_author-social-below-text {
+        display: none;
+    }
+    .content_author-social-2 {
+        padding: 0 7rem;
+    }
+    .content_separator-big,
+    .content_separator-tiny {
+        display: none;
+    }
+    .signup {
+        margin: 0;
+    }
+    .signup_header {
+        margin: 4.2rem 6.5rem 1.6rem;
+    }
+    .signup_text {
+        padding: 0 3.6rem 3.3rem;
+    }
+    .signup_email-text {
+        padding: 0 5rem 0 1.2rem;
+    }
+    .signup_email-confirm {
+        padding: 1.7rem;
     }
 }
