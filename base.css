@@ -27,3 +27,8 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
