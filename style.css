@@ -1,14 +1,9 @@
 .header,
-h1 {
+h1,
+p {
     font-style: normal;
     text-align: center;
     color: #000;
-}
-
-.header,
-h1,
-p {
-    text-align: center;
 }
 
 .article_content-pair-item,
@@ -259,7 +254,7 @@ footer {
 
 .content_author-social-below {
     border: 1px solid #e5e5e5;
-    padding: 0 3.95rem;
+    padding: 0 3.8rem;
 }
 
 .content_author-social-below-text {
@@ -379,7 +374,6 @@ footer {
 }
 
 .signup_email {
-    max-width: 48rem;
     margin-bottom: 4rem;
     justify-content: center;
 }
