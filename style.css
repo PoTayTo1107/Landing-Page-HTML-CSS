@@ -554,7 +554,8 @@ footer {
         padding: 0 2rem 0 1.2rem;
     }
     .signup_email-confirm {
-        padding: 1.7rem;
+        padding: 1rem;
+        font-size: 1.2rem;
     }
 }
 
