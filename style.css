@@ -452,9 +452,9 @@ footer {
     .nav_list-unshortened-layer {
         position: absolute;
         z-index: 1;
-        top: 9.6rem;
+        top: 9.5rem;
         width: 50%;
-        height: 60rem;
+        height: 70rem;
         background-color: #000;
         opacity: 20%;
     }
@@ -466,9 +466,9 @@ footer {
         position: absolute;
         z-index: 1;
         right: 0;
-        top: 9.6rem;
+        top: 9.5rem;
         width: 50%;
-        height: 60rem;
+        height: 70rem;
         background-color: #fff;
     }
     .nav_list-unshortened-item {
@@ -551,7 +551,7 @@ footer {
         padding: 0 3.6rem 3.3rem;
     }
     .signup_email-text {
-        padding: 0 3rem 0 1.2rem;
+        padding: 0 2rem 0 1.2rem;
     }
     .signup_email-confirm {
         padding: 1.7rem;
