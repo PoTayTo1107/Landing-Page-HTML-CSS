@@ -14,18 +14,34 @@
         <header class="header">
             <nav class="nav grid_row">
                 <ul class="nav_list">
-                    <li class="nav_list-item nav_home">
+                    <li class="nav_list nav_home">
                         <a href="index.html">NODRIC ROSE</a>
                     </li>
                 </ul>
 
-                <ul class="nav_list grid_row nav_order">
-                    <li class="nav_list-item nav_cur">BLOG</li>
-                    <li class="nav_list-item">ABOUT</li>
-                    <li class="nav_list-item">LINKS</li>
-                    <li class="nav_list-item">PROJECTS</li>
+                <ul class="nav_list grid_row">
+                    <li class="nav_list-item nav_order nav_cur">BLOG</li>
+                    <li class="nav_list-item nav_order">ABOUT</li>
+                    <li class="nav_list-item nav_order">LINKS</li>
+                    <li class="nav_list-item nav_order">PROJECTS</li>
+                    <div class="nav_list-triple return" onclick="tripleBar()">
+                        <div class="nav_list-shortened"></div>
+                        <div class="nav_list-shortened"></div>
+                        <div class="nav_list-shortened"></div>
+                    </div>
                 </ul>
             </nav>
+            <div class="nav_list-unshortened">
+                <div class="nav_list-unshortened-layer"></div>
+                <div class="nav_list-unshortened-main">
+                    <ul class="nav_list-unshortened-list">
+                        <li class="nav_list-unshortened-item">BLOG</li>
+                        <li class="nav_list-unshortened-item">ABOUT</li>
+                        <li class="nav_list-unshortened-item">LINKS</li>
+                        <li class="nav_list-unshortened-item">PROJECTS</li>
+                    </ul>
+                </div>
+            </div>
         </header>
         <div class="container">
             <a href="article.html" class="blog">
@@ -132,5 +148,6 @@
                 <p class="footer_copyright-item">All rights reserved.</p>
             </div>
         </footer>
+        <script src="main.js"></script>
     </body>
 </html>

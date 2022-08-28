@@ -18,7 +18,8 @@ p {
     text-transform: uppercase;
 }
 
-.header {
+.header,
+.nav_list-unshortened-item {
     font-family: "New York Small";
     font-weight: 550;
     font-size: 2rem;
@@ -30,11 +31,7 @@ p {
 
 .nav {
     justify-content: space-between;
-    margin: 0 4rem;
-}
-
-.nav_cur {
-    border-bottom: 2px solid #000;
+    padding: 0 2rem;
 }
 
 .nav_home {
@@ -42,13 +39,31 @@ p {
 }
 
 .nav_list {
-    margin: 0;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
     padding: 0;
 }
 
 .nav_list-item {
-    margin: 5rem 2rem 0;
-    padding-bottom: 4rem;
+    margin: 4rem 2rem 0;
+}
+
+.nav_cur {
+    border-bottom: 2px solid #000;
+    padding-bottom: 6rem;
+}
+
+.nav_list-unshortened {
+    display: none;
+}
+
+.nav_list-shortened {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: #757575;
+    margin: 0.5rem 0;
 }
 
 .blog_home-img {
@@ -404,25 +419,83 @@ footer {
     }
     .nav_home {
         font-size: 2rem;
-        padding: 0;
+        padding: 2rem;
         margin: 0;
     }
     .header {
         font-size: 1.2rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+    .nav_list {
+        margin: 0.5rem;
     }
     .nav {
-        justify-content: space-between;
-        padding: 0 1rem;
+        margin-right: 2rem;
+        padding: 0;
     }
     .nav_list-item {
         padding: 3rem 1rem 2rem;
     }
+    .nav_list-triple {
+        padding: 2rem;
+    }
+    .nav_list-shortened {
+        display: block;
+    }
+    .nav_list-unshortened {
+        display: none;
+    }
+    .nav_list-unshortened-layer {
+        position: absolute;
+        z-index: 1;
+        top: 9.6rem;
+        width: 50%;
+        height: 60rem;
+        background-color: #000;
+        opacity: 20%;
+    }
+    .nav_list-unshortened-list {
+        padding: 0;
+        margin: 0;
+    }
+    .nav_list-unshortened-main {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 9.6rem;
+        width: 50%;
+        height: 60rem;
+        background-color: #fff;
+    }
+    .nav_list-unshortened-item {
+        padding: 1rem;
+        list-style: none;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .show {
+        display: block;
+        animation-name: ease-in-out;
+        animation-duration: 0.3s;
+    }
+    .turn {
+        transform: rotate(90deg);
+    }
+    .return,
+    .turn {
+        transition: 0.3s ease-in-out;
+    }
     h1 {
+        padding-top: 10rem;
         font-size: 3.6rem;
         margin-bottom: 2.4rem;
     }
     .blog_home-img {
-        margin: 5rem auto;
+        margin: 15rem auto 5rem;
         width: 100%;
     }
     p {
@@ -478,9 +551,18 @@ footer {
         padding: 0 3.6rem 3.3rem;
     }
     .signup_email-text {
-        padding: 0 5rem 0 1.2rem;
+        padding: 0 3rem 0 1.2rem;
     }
     .signup_email-confirm {
         padding: 1.7rem;
+    }
+}
+
+@keyframes ease-in-out {
+    0% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
     }
 }
